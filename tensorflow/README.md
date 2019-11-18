@@ -11,7 +11,7 @@ This add-on is an installer for TensorFlow for use with armv7 hassio installs.  
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Hass.io add-on.
 
-1. [Add our Hass.io add-ons repository](https://github.com/hunterjm/hassio-addons) to your Hass.io instance.
+1. [Add our Hass.io add-ons repository](https://github.com/ryanjhkruger/hassio-addons) to your Hass.io instance.
 2. Install the "TensorFlow Installer" add-on.
 3. Start the "TensorFlow Installer" add-on.
 4. Check the logs of the "TensorFlow Installer" add-on to see if everything went well.
