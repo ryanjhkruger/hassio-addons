@@ -1,10 +1,10 @@
 # Hass.io Add-on: TensorFlow Installer
 
-TensorFlow Installer for Home Assistant (amd64 only)
+TensorFlow Installer for Home Assistant (armv7 only)
 
 ## About
 
-This add-on is an installer for TensorFlow for use with amd64 hassio installs.  It enables the use of the TensorFlow image processing component.
+This add-on is an installer for TensorFlow for use with armv7 hassio installs.  It enables the use of the TensorFlow image processing component.
 
 ## Installation
 
