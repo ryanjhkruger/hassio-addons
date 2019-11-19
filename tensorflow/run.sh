@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+conda install python=3.4.3
+
 # Install modules
 echo "[Info] Install TensorFlow modules into deps"
 export PYTHONUSERBASE=/config/deps
