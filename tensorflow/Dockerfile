@@ -1,4 +1,4 @@
-ARG BUILD_FROM="homeassistant/armv7-base-python:3.7"
+ARG BUILD_FROM="homeassistant/armv7-base-python:latest"
 FROM $BUILD_FROM
 
 # Copy data
