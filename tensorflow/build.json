@@ -1,5 +1,5 @@
 {
   "build_from": {
-    "armv7": "homeassistant/armv7-base-python:3.7"
+    "armv7": "homeassistant/armv7-base-python:latest"
   }
 }
