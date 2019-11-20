@@ -1,9 +1,6 @@
 #!/bin/bash
 set -e
 
-echo "[Info] Set tensorflow python 3.4"
-conda create --name tensorflow python=3.4
-
 # Install modules
 echo "[Info] Install TensorFlow modules into deps"
 export PYTHONUSERBASE=/config/deps
