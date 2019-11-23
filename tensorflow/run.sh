@@ -16,10 +16,10 @@ fi
 echo "[Info] Install TensorFlow into deps"
 # shellcheck disable=SC2086
 
-wget https://storage.googleapis.com/tensorflow/raspberrypi/tensorflow-1.14.0-cp34-none-linux_armv7l.whl
-mv tensorflow-1.14.0-cp34-none-linux_armv7l.whl tensorflow-1.14.0-cp37-none-linux_armv7l.whl
+wget https://storage.googleapis.com/tensorflow/raspberrypi/tensorflow-1.13.1-cp34-none-linux_armv7l.whl
+mv tensorflow-1.13.1-cp34-none-linux_armv7l.whl tensorflow-1.13.1-cp37-none-linux_armv7l.whl
 
-if ! pip3 install --user --no-cache-dir --prefix= --no-dependencies tensorflow-1.14.0-cp37-none-linux_armv7l.whl; then
+if ! pip3 install --user --no-cache-dir --prefix= --no-dependencies tensorflow-1.13.1-cp37-none-linux_armv7l.whl; then
     echo "[Error] Can't install TensorFlow package!"
     exit 1
 fi
